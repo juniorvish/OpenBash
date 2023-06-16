@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBash</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-4xl font-bold mb-6">OpenBash</h1>
+        <p class="mb-4">Enter a natural language command:</p>
+        <input id="inputCommand" type="text" class="w-full p-2 border border-gray-300 rounded mb-4">
+        <button id="submitButton" class="bg-blue-500 text-white px-4 py-2 rounded">Convert to Bash</button>
+        <div id="outputBash" class="mt-6 p-4 bg-white border border-gray-300 rounded"></div>
+    </div>
+    <script src="js/frontend.js"></script>
+    <script src="js/backend.js"></script>
+</body>
+</html>
